@@ -66,6 +66,12 @@ function App(){
           <Timeline.Time className='text-white text-lg'>January 2024</Timeline.Time>
           <Timeline.Title className='text-white text-2xl'>Cybersecurity Intern | <span className='text-white text-lg italic'>City of Toronto</span></Timeline.Title>
           <Timeline.Body className='text-white text-lg'>
+          <ul className="text-lg">
+            <li>Leveraged <span className="text-lightcyan hover:text-darkcyan hover:cursor-default">Python</span> scripting to automate security processes, saving 5 hours of manual work each week</li>
+            <li>Enhanced operational cyber standards, procedures, and processes, achieving a 20% improvement in alignment with <span className="text-lightcyan hover:text-darkcyan hover:cursor-default"> NIST framework </span> and other cyber security frameworks.</li>
+            <li>Developed a monthly education plan to improve the IT security-related skills and technologies of 50+ staff members.</li>
+            <li>Utilized <span className="text-lightcyan hover:text-darkcyan hover:cursor-default">SQL injection</span>, cross-site scripting, and <span className="text-lightcyan hover:text-darkcyan hover:cursor-default">OS command injection</span> to identify vulnerabilities in 30+ web applications.</li>
+          </ul>
           </Timeline.Body>
         </Timeline.Content>
       </Timeline.Item>
