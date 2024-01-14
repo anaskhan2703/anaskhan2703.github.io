@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.eabdb81e.css",
-    "main.js": "/static/js/main.3063d325.js",
+    "main.css": "/static/css/main.4d251f8b.css",
+    "main.js": "/static/js/main.bef8e5f2.js",
     "static/media/LightningMath.png": "/static/media/LightningMath.adb71c2b58ece4121afa.png",
     "static/media/pokedex.png": "/static/media/pokedex.69d8befeb6d8fb81eee5.png",
     "static/media/aboutmepic.jpg": "/static/media/aboutmepic.774ede14c6fc251faf76.jpg",
@@ -13,11 +13,11 @@
     "static/media/sql.png": "/static/media/sql.be99f21a93dbdf9b0e20.png",
     "static/media/WeatherApp.png": "/static/media/WeatherApp.e29bc89c049198b01b53.png",
     "index.html": "/index.html",
-    "main.eabdb81e.css.map": "/static/css/main.eabdb81e.css.map",
-    "main.3063d325.js.map": "/static/js/main.3063d325.js.map"
+    "main.4d251f8b.css.map": "/static/css/main.4d251f8b.css.map",
+    "main.bef8e5f2.js.map": "/static/js/main.bef8e5f2.js.map"
   },
   "entrypoints": [
-    "static/css/main.eabdb81e.css",
-    "static/js/main.3063d325.js"
+    "static/css/main.4d251f8b.css",
+    "static/js/main.bef8e5f2.js"
   ]
 }
