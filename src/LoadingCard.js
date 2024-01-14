@@ -57,9 +57,9 @@ function App() {
   ];
 
   return (
-    <div className="flex justify-center items-center h-screen font-Varela">
-      <div className="border-8 w-4/6 h-3/6 overflow-hidden rounded-3xl shadow-2xl shadow-lightcyan bg-darkblackZ border-grey phone:flex  justify-around tablet:h-4/6">
-        <div className="text-lightcyan mx-5 laptop:items-center laptop:border-r-8 laptop:border-grey laptop:h-full laptop:w-4/6 flex flex-col justify-center items-center">
+    <div className="flex justify-center items-center h-screen font-Varela ">
+      <div className="reveal border-8 w-4/6 h-3/6 overflow-hidden rounded-3xl shadow-2xl shadow-lightcyan bg-darkblackZ border-grey phone:flex  justify-around tablet:h-4/6">
+        <div className=" text-lightcyan mx-5 laptop:items-center laptop:border-r-8 laptop:border-grey laptop:h-full laptop:w-4/6 flex flex-col justify-center items-center">
           <h1 className="text-4xl text-center laptop:text-8xl">Hello, <br /> I'm Anas Khan.</h1>
           <h1 className="text-md text-center mt-2 laptop:text-4xl">Third year Computer Science student at York University</h1>
           <a href={Resume} target="_blank" className="mt-2">
@@ -69,8 +69,10 @@ function App() {
                 <span className="text-white transition-all duration-300 ease-linear group-hover:translate-x-2">RESUME </span>
                 <HiOutlineArrowRight className="text-white transition-all duration-300 ease-linear group-hover:translate-x-2"/>
               </div>  
+
             </button>
           </a>
+
         </div>
         <ul className=" hidden laptop:flex laptop:flex-col laptop:justify-around laptop:items-center laptop:w-2/6">
            <li className="px-4 text-4xl text-white cursor-pointer capitalize ease-in-out hover:scale-150 transition-transform duration-300 hover:text-lightcyan"><a href="#about">About</a></li>

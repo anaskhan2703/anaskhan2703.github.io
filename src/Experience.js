@@ -27,7 +27,7 @@ function App(){
             <div className="flex justify-center">
                 <div className="w-4/6 h-5/6">
                   <div className='reveal'>
-                <h1 className="text-5xl py-5 font-Varela reveal">Experience</h1>
+                <h1 className="phone:text-4xl laptop:text-5xl py-5 font-Varela reveal">Experience</h1>
                 <hr className="w-full py-2 block"/>
                 <div>
                 <Timeline className='reveal'>
@@ -35,8 +35,9 @@ function App(){
         <Timeline.Point />
         <Timeline.Content className='bg-grey rounded-3xl p-5 '>
           <Timeline.Time className='text-white text-lg'>January 2023</Timeline.Time>
-          <Timeline.Title className='text-white text-2xl'>Programming Instructor | <span className='text-white text-lg italic'>Best Brains Learning centers</span></Timeline.Title>
-          <Timeline.Body className='text-white text-lg'>
+          <Timeline.Title className='laptop:hidden text-darkcyan text-xl'>Programming Instructor <p className='text-white text-sm italic'>Best Brains Learning centers</p></Timeline.Title>
+          <Timeline.Title className='hidden laptop:block text-white text-2xl'>Programming Instructor | <span className='text-white text-lg italic'>Best Brains Learning centers</span></Timeline.Title>
+          <Timeline.Body className='hidden laptop:block text-white text-lg'>
             <ul>
                 <li>Tutored <span className="text-lightcyan hover:text-darkcyan hover:cursor-default">Python</span> fundamentals to a class of 36 students including object-oriented, problem-solving, application design, building, and testing, and algorithm fundamentals</li>
                 <li>Led a team of 2 tutors to run courses and supervise <span className="text-lightcyan hover:text-darkcyan hover:cursor-default">Software Engineering </span>project boot camps virtually and in person</li>
@@ -50,8 +51,9 @@ function App(){
         <Timeline.Point />
         <Timeline.Content className='bg-grey rounded-3xl p-5 '>
           <Timeline.Time className='text-white text-lg'>May 2023</Timeline.Time>
-          <Timeline.Title className='text-white text-2xl'>Programmer Assistant | <span className='text-white text-lg italic'>Lassonde School of Engineering</span></Timeline.Title>
-          <Timeline.Body className='text-white text-lg'>
+          <Timeline.Title className='laptop:hidden text-darkcyan text-xl'>Programmer Assistant <p className='text-white text-sm italic'>Lassonde School of Engineering</p></Timeline.Title>
+          <Timeline.Title className='hidden laptop:block text-white text-2xl'>Programmer Assistant | <span className='text-white text-lg italic'>Lassonde School of Engineering</span></Timeline.Title>
+          <Timeline.Body className='hidden laptop:block text-white text-lg'>
           <ul className="text-lg">
             <li>Utilized <span className="text-lightcyan hover:text-darkcyan hover:cursor-default">Salesforce Lightning</span> to create custom solutions, elevating user engagement by 25%</li>
             <li>Designed an interactive data visualization dashboard using <span className="text-lightcyan hover:text-darkcyan hover:cursor-default"> Power BI </span> for the Lassonde Co-op and Internship division to provide over 500 students with insight on placements</li>
@@ -64,8 +66,9 @@ function App(){
         <Timeline.Point />
         <Timeline.Content className='bg-grey rounded-3xl p-5'>
           <Timeline.Time className='text-white text-lg'>January 2024</Timeline.Time>
-          <Timeline.Title className='text-white text-2xl'>Cybersecurity Intern | <span className='text-white text-lg italic'>City of Toronto</span></Timeline.Title>
-          <Timeline.Body className='text-white text-lg'>
+          <Timeline.Title className='laptop:hidden text-darkcyan text-xl'>Cybersecurity Intern <p className='text-white text-sm italic'>City of Toronto</p></Timeline.Title>
+          <Timeline.Title className='hidden laptop:block text-white text-2xl'>Cybersecurity Intern | <span className='text-white text-lg italic'>City of Toronto</span></Timeline.Title>
+          <Timeline.Body className='hidden laptop:block text-white text-lg'>
           <ul className="text-lg">
             <li>Leveraged <span className="text-lightcyan hover:text-darkcyan hover:cursor-default">Python</span> scripting to automate security processes, saving 5 hours of manual work each week</li>
             <li>Enhanced operational cyber standards, procedures, and processes, achieving a 20% improvement in alignment with <span className="text-lightcyan hover:text-darkcyan hover:cursor-default"> NIST framework </span> and other cyber security frameworks.</li>

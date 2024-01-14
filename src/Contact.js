@@ -25,10 +25,10 @@ function Contact() {
     <div className=" text-white h-full font-Varela pb-9 flex flex-col items-center scroll-smooth relative z-20">
       <div className="w-4/6 text-center">
         <div className="reveal">
-        <h1 className="text-5xl py-5 font-Varela text-start">Contact</h1>
-        <hr className="w-full py-2" />
+        <h1 className="phone:text-4xl laptop:text-5xl py-2 font-Varela text-start">Contact</h1>
+        <hr className="w-full py-0" />
         
-        <p className="text-2xl mb-2 ">
+        <p className="text-md my-2 ">
           I'm always open to new opportunities or collaborations. Feel free to get in touch!
         </p>
 

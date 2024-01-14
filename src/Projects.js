@@ -32,21 +32,21 @@ function Projects(){
             <div className="flex justify-center"> 
             <div className="w-4/6 h-5/6">
             <div className="reveal">
-            <h1 className="text-5xl py-5 font-Varela">Projects</h1>
+            <h1 className="phone:text-4xl laptop:text-5xl py-5 font-Varela">Projects</h1>
             <hr className="w-full py-2"/>
             </div>
             
             
-        <div className="grid grid-cols-3 grid-rows-0 gap-12 reveal">
+        <div className="grid laptop:grid-cols-3 grid-rows-0 gap-12 reveal">
             <div className="bg-grey w-full rounded-3xl shadow-md shadow-darkcyan ">
                 <div className="relative overflow-hidden group hover:cursor-pointer">
                 <a href="https://anaspokedex.netlify.app/" target="_blank" rel="noopener noreferrer">
                             <img src={pokedex} className="p-3"></img>
                             <div className="absolute h-full w-full bg-black/20 flex items-center justify-center -bottom-10 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-allduration-300">
-                            <button className=" bg-black text-white py-2 px-2 m-2">HTML</button>
-                            <button className=" bg-black text-white py-2 px-2 m-2">CSS</button>
-                            <button className=" bg-black text-white py-2 px-2 m-2">ReactJs</button>
-                            <button className=" bg-black text-white py-2 px-2 m-2">APIs</button>
+                            <button className=" bg-darkcyan text-white py-2 px-2 m-2 rounded-xl">HTML</button>
+                            <button className=" bg-darkcyan text-white py-2 px-2 m-2 rounded-xl">CSS</button>
+                            <button className=" bg-darkcyan text-white py-2 px-2 m-2 rounded-xl">ReactJs</button>
+                            <button className=" bg-darkcyan text-white py-2 px-2 m-2 rounded-xl">APIs</button>
                             </div>
                             </a>
                         </div>
@@ -58,10 +58,10 @@ function Projects(){
                 <a href="https://github.com/anaskhan2703/Lightning_Math_Repo" target="_blank" rel="noopener noreferrer">
                             <img src={LM} className="p-3"></img>
                             <div className="absolute h-full w-full bg-black/20 flex items-center justify-center -bottom-10 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-allduration-300">
-                            <button className=" bg-black text-white py-2 px-2 m-2">Java</button>
-                            <button className=" bg-black text-white py-2 px-2 m-2">JUnit</button>
-                            <button className=" bg-black text-white py-2 px-2 m-2">Figma</button>
-                            <button className=" bg-black text-white py-2 px-2 m-2">Android Studio</button>
+                            <button className=" bg-darkcyan text-white py-2 px-2 m-2 rounded-xl">Java</button>
+                            <button className=" bg-darkcyan text-white py-2 px-2 m-2 rounded-xl">JUnit</button>
+                            <button className=" bg-darkcyan text-white py-2 px-2 m-2 rounded-xl">Figma</button>
+                            <button className=" bg-darkcyan text-white py-2 px-2 m-2 rounded-xl">Android Studio</button>
                             </div>
                             </a>
                         </div>
@@ -73,10 +73,10 @@ function Projects(){
                 <a href="https://anasweatherapp.netlify.app/" target="_blank" rel="noopener noreferrer">
                             <img src={weather} className="p-3"></img>
                             <div className="absolute h-full w-full bg-black/20 flex items-center justify-center -bottom-10 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-allduration-300">
-                            <button className=" bg-black text-white py-2 px-2 m-2">HTML</button>
-                            <button className=" bg-black text-white py-2 px-2 m-2">CSS</button>
-                            <button className=" bg-black text-white py-2 px-2 m-2">ReactJs</button>
-                            <button className=" bg-black text-white py-2 px-2 m-2">REST APIs</button>
+                            <button className=" bg-darkcyan text-white py-2 px-2 m-2 rounded-xl">HTML</button>
+                            <button className=" bg-darkcyan text-white py-2 px-2 m-2 rounded-xl">CSS</button>
+                            <button className=" bg-darkcyan text-white py-2 px-2 m-2 rounded-xl">ReactJs</button>
+                            <button className=" bg-darkcyan text-white py-2 px-2 m-2 rounded-xl">REST APIs</button>
                             </div>
                             </a>
                         </div>

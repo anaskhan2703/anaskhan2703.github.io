@@ -68,28 +68,27 @@ function About(){
     };
 
     return(
-        <div className="reveal z-20 relative">
-        <div className="text-white h-full font-Varela pb-9 scroll-smooth ">
+
+        <div className="text-white h-full font-Varela pb-9 scroll-smooth relative z-20 ">
             <div className="flex justify-center relative z-20  ">
-            <div className=" w-4/6 h-5/6 flex">
-                <div className="flex flex-col w-4/6 h-4/6">
-                <h1 className="text-5xl py-5 font-Varela">About me</h1>
-                <hr className="w-full py-2 "/>
-                <h1 className="text-xl py-5 pr-2 relative z-20 ">Hello! My name is Anas Khan. I'm from Ontario, Canada and I am a student at York University, pursuing a BSc Hons. in Computer Science. </h1>
-                <h1 className="text-xl py-5 pr-2 relative z-20">I'm very passionate in learning about the fields and subfields of Computer Science. Some of my areas of interest are Web development, Mobile App development, CyberSecurity, and big Data. </h1>
-                <h1 className="text-xl py-5 pr-2 relative z-20">With a strong passion in computer science and a natural curiosity, I'm always seeking new challenges and opportunities to expand my skills and knowledge.</h1>
-                </div>
-                <div className="w-2/6 h-4/6 ">
-                <img src={meImage} className="shadow-lg shadow-darkcyan rounded-full h-full object-fill bg-red-400 z-20 relative" alt=""></img>
-                </div>
-                </div>
-            </div>
-            <div className="flex justify-center z-20 ">
-            <h1 className="pb-5 text-xl ">Some Technologies I have worked with</h1> 
-            </div>
-            
-            <div className="flex justify-center items-center pb-5  ">
-                <div className="w-1/6 h-80 rounded-3xl bg-grey shadow-lg shadow-darkcyan z-20 relative">
+                <div className=" w-4/6 h-5/6 flex flex-col  ">
+                    <div className="laptop:flex">
+                    <div className="laptop:w-4/6 laptop:h-5/6">
+                        <h1 className="phone:text-4xl laptop:text-5xl py-5">About me</h1>
+                        <hr className="w-full py-2 "/>
+                        <h1 className="hidden laptop:block text-xl py-5 pr-2 relative z-20 ">Hello! My name is Anas Khan. I'm from Ontario, Canada and I am a student at York University, pursuing a BSc Hons. in Computer Science. </h1>
+                        <h1 className="text-lg py-5 pr-2 relative z-20">I'm very passionate in learning about the fields and subfields of Computer Science - especially Web development, Mobile App development, and CyberSecurity. </h1>
+                        <h1 className="text-lg py-5 pr-2 relative z-20">With a strong passion in computer science and a natural curiosity, I'm always seeking new challenges and opportunities to expand my skills and knowledge.</h1>
+                    </div>
+                    <div className="laptop:w-2/6 phone:h-4/6">
+                    <img src={meImage} className="shadow-lg shadow-darkcyan rounded-full h-full object-fill z-20 relative" alt=""></img>
+                    </div>
+                    </div>
+                    <div className="flex justify-center z-20 ">
+                    <h1 className="my-10 text-sm ">Some Technologies I have worked with</h1> 
+                    </div>
+                    <div className="flex justify-center items-center pb-5 ">
+                    <div className="phone:w-5/6 laptop:w-2/6 h-80 rounded-3xl bg-grey shadow-lg shadow-darkcyan z-20 relative">
                     <Carousel>
                         <div className=" flex flex-col justify-center items-center rounded-3xl">
                         <img src= {html} className="w-3/6 "></img>
@@ -116,10 +115,11 @@ function About(){
                         <h1 className="">Python</h1>
                         </div>
                     </Carousel>
+                    </div>
+                    </div>
+                     </div>
                 </div>
-            </div>
-        </div>
-        </div>
+                            </div>
     );
 
 

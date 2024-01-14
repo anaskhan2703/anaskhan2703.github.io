@@ -16,6 +16,51 @@
     }
   }
   
+  @layer utilities {
+    .animation-delay-200 {
+      animation-delay: 0.2s;
+    }
+    .animation-delay-400 {
+      animation-delay: 0.4s;
+    }
+    @keyframes mouse-scroll {
+      0% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0.5;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+    @keyframes mouse-in {
+      0% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      100% {
+        opacity: 0;
+        transform: translateY(6px);
+      }
+    }
+  }
+  
+  @layer components {
+    .down-arrow-1,
+    .down-arrow-2,
+    .down-arrow-3 {
+      width: 5px;
+      height: 5px;
+      transform: rotate(45deg);
+      border-right: 2px solid #fff;
+      border-bottom: 2px solid #fff;
+      animation: mouse-scroll 1s infinite alternate;
+    }
+    .mouse-in {
+      animation: mouse-in 1.2s ease infinite;
+    }
+  }
 
   .reveal{
     position: relative;
